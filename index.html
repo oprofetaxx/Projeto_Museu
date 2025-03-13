@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional</title>
+
+    <!-- B 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+
+    <!-- Container Principal -->
+    <div class="container">
+
+        <!-- Navbar Bootstrap -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Museu Nacional</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Exposições</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Pesquisa</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Acervo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Vídeos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Fotos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Seção Principal -->
+        <div class="row my-4">
+            <div class="col-md-8">
+                <img src="img/museu.png" class="img-fluid rounded" alt="Museu Nacional">
+            </div>
+
+            <div class="col-md-4">
+                <h3>Vídeo: Conheça o Museu</h3>
+                <iframe class="w-100" height="200" src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0" allowfullscreen></iframe>
+                <h3 class="mt-3">Mapa: Encontre o Museu</h3>
+                <iframe class="w-100" height="200" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311665319!2d-43.228717585034445!3d-22.90575998501238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu+Nacional+-+UFRJ!5e0!3m2!1spt-BR!2sbr!4v1537538326477" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Seção de Exposições -->
+        <div class="row">
+            <div class="col-md-8">
+                <h3>Exposições</h3>
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="#">Os assustadores insetos</a></li>
+                    <li class="list-group-item"><a href="#">O crânio de Luzia, a mulher mais antiga do Brasil</a></li>
+                    <li class="list-group-item"><a href="#">Preguiça gigante e tigre-dentes-de-sabre</a></li>
+                    <li class="list-group-item"><a href="#">Plantas do Brasil Central</a></li>
+                    <li class="list-group-item"><a href="#">Teresa Cristina: A Imperatriz Arqueóloga</a></li>
+                    <li class="list-group-item"><a href="#">Arte Com Dinossauros - Paleoarte</a></li>
+                    <li class="list-group-item"><a href="#"><strong>Veja Todos</strong></a></li>
+                </ul>
+            </div>
+            
+            <div class="col-md-4">
+                <h4>200 Anos de História</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" class="btn btn-primary">Leia Mais</a>
+            </div>
+        </div>
+
+        <!-- Seção de Visita -->
+        <div class="row my-4">
+            <div class="col-md-6">
+                <h4>Faça uma Visita</h4>
+                <form>
+                    <div class="mb-3">
+                        <label for="data" class="form-label">Data</label>
+                        <input class="form-control" type="date" id="data">
+                    </div>
+                    <div class="mb-3">
+                        <label for="qtd" class="form-label">Quantidade de Pessoas</label>
+                        <input class="form-control" type="number" id="qtd" min="1">
+                    </div>
+                    <button type="submit" class="btn btn-success">Verificar Disponibilidade</button>
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <h4>Galeria de Fotos</h4>
+                <div class="row">
+                    <div class="col-3"><img src="img/imagem1.jpg" class="img-thumbnail"></div>
+                    <div class="col-3"><img src="img/imagem2.jpg" class="img-thumbnail"></div>
+                    <div class="col-3"><img src="img/imagem3.jpg" class="img-thumbnail"></div>
+                    <div class="col-3"><img src="img/imagem4.jpg" class="img-thumbnail"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rodapé -->
+        <footer class="bg-dark text-white text-center py-3">
+            <p>
+                <a href="#" class="text-white">Home</a> |
+                <a href="#" class="text-white">Exposições</a> |
+                <a href="#" class="text-white">Pesquisa</a> |
+                <a href="#" class="text-white">Acervo</a> |
+                <a href="#" class="text-white">Vídeos</a> |
+                <a href="#" class="text-white">Fotos</a> |
+                <a href="#" class="text-white">Contato</a>
+            </p>
+            <p>2024 <a href="#" class="text-white">Museu Nacional</a> - Todos os direitos reservados.</p>
+        </footer>
+
+    </div> <!-- Fim Container -->
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
