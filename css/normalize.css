@@ -1,0 +1,204 @@
+/* Configurações gerais para o HTML */
+html {
+    line-height: 1.15; /* Define a altura da linha padrão */
+    -webkit-text-size-adjust: 100%; /* Evita que o tamanho do texto seja ajustado automaticamente em dispositivos móveis */
+}
+
+/* Remove a margem padrão do body */
+body{
+    margin: 0;
+}
+
+/* Configuração do título principal */
+h1{
+    font-size: 2em; /* Define o tamanho da fonte */
+    margin: 0.67em 0; /* Define margens superiores e inferiores */
+}
+
+/* Configuração para a linha horizontal */
+hr{
+    box-sizing: content-box; /* Mantém o tamanho da caixa conforme o conteúdo */
+    height: 0;
+    overflow: visible; /* Permite que o conteúdo flua além do tamanho definido */
+}
+
+/* Configuração para elementos <pre> (texto pré-formatado) */
+pre{
+    font-family: monospace, monospace; /* Define fonte monoespaçada */
+    font-size: 1em;
+}
+
+/* Remove o fundo padrão de links */
+a{
+    background-color: transparent;
+}
+
+/* Configuração para abreviações com títulos */
+abbr[title]{
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted; /* Adiciona um sublinhado pontilhado */
+}
+
+/* Define a fonte em negrito */
+b,
+strong{
+    font-weight: bolder;
+}
+
+/* Define a fonte para elementos de código */
+code,
+kbd,
+samp{
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+/* Configuração para texto pequeno */
+small{
+    font-size: 80%;
+}
+
+/* Configuração para sub e superscript */
+sub,
+sup{
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub{
+    bottom: -0.25em;
+}
+
+sup{
+    top: -0.5em;
+}
+
+/* Remove a borda padrão das imagens */
+img{
+    border-style: none;
+}
+
+/* Configuração geral para botões, inputs e selects */
+button,
+input,
+optgroup,
+select,
+textarea{
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+/* Configuração para botões e inputs */
+button,
+input{
+    overflow: visible;
+}
+
+/* Remove transformação de texto para botões e selects */
+button,
+select{
+    text-transform: none;
+}
+
+/* Ajusta aparência padrão de botões */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"]{
+    -webkit-appearance: button;
+}
+
+/* Remove estilos internos no Firefox */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner{
+    border-style: none;
+    padding: 0;
+}
+
+/* Adiciona contorno para acessibilidade em Firefox */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring{
+    outline: 1px dotted ButtonText;
+}
+
+/* Ajustes para fieldset e legend */
+fieldset{
+    padding: 0.35em 0.75em 0.625em;
+}
+
+legend{
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+}
+
+/* Ajuste para elemento progress */
+progress{
+    vertical-align: baseline;
+}
+
+/* Ajuste para textarea */
+textarea{
+    overflow: auto;
+}
+
+/* Ajuste para inputs de checkbox e radio */
+[type="checkbox"],
+[type="radio"]{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/* Ajuste para input de número no WebKit */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button{
+    height: auto;
+}
+
+/* Ajuste para inputs de busca no WebKit */
+[type="search"]{
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-decoration{
+    -webkit-appearance: none;
+}
+
+/* Ajuste para botão de upload no WebKit */
+::-webkit-file-upload-button{
+    -webkit-appearance: button;
+    font: inherit;
+}
+
+/* Configuração para elemento details */
+details{
+    display: block;
+}
+
+/* Configuração para summary */
+summary{
+    display: list-item;
+}
+
+/* Oculta elementos template */
+template{
+    display: none;
+}
+
+/* Oculta elementos com o atributo hidden */
+[hidden]{
+    display: none;
+}
